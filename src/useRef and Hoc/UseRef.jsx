@@ -1,4 +1,3 @@
-
 import React, { useRef, useEffect } from "react";
 import { TextField, Button, Box, Typography } from "@mui/material";
 
@@ -18,12 +17,18 @@ const UserForm = () => {
       passwordRef.current.focus();
     }
   };
-  
 
   return (
-  
-    <Box sx={{ p: 4, maxWidth: 400, mx: "auto",border:"1px solid black",mt:15 }}>
-      <Typography variant="h5" sx={{p:2}}>
+    <Box
+      sx={{
+        p: 4,
+        maxWidth: 400,
+        mx: "auto",
+        border: "1px solid black",
+        mt: 15,
+      }}
+    >
+      <Typography variant="h5" sx={{ p: 2 }}>
         Login Form
       </Typography>
       <Box display="flex" flexDirection="column" gap={2}>
@@ -32,21 +37,33 @@ const UserForm = () => {
           <Button
             sx={{ mt: 1 }}
             variant="contained"
-            onClick={() => handleNext(nameRef)}> Next </Button>
+            onClick={() => handleNext(nameRef)}
+          >
+            {" "}
+            Next{" "}
+          </Button>
         </Box>
         <Box>
-          <TextField inputRef={emailRef} label="Email" fullWidth  />
+          <TextField inputRef={emailRef} label="Email" fullWidth />
           <Button
             sx={{ mt: 1 }}
             variant="contained"
-            onClick={() => handleNext(emailRef)} > Next </Button>
+            onClick={() => handleNext(emailRef)}
+          >
+            {" "}
+            Next{" "}
+          </Button>
         </Box>
         <Box>
-          <TextField inputRef={passwordRef} label="Password" type="password" fullWidth />
+          <TextField
+            inputRef={passwordRef}
+            label="Password"
+            type="password"
+            fullWidth
+          />
         </Box>
       </Box>
     </Box>
-    
   );
 };
 
