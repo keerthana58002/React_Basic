@@ -2,6 +2,7 @@ import React from "react";
 
 const isAuthenticated = true;
 
+
 function HocAuthentication(Component) {
   return function () {
     if (!isAuthenticated) {
