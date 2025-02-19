@@ -53,7 +53,7 @@ const ReatYup = () => {
         borderRadius: 2,
       }}
     >
-      <Box sx={{display:"flex",justifyContent:"center"}}>Login Form</Box>
+      <Box sx={{display:"flex",justifyContent:"center",fontSize:20}}><b>Login Form</b></Box>
       <TextField
         label="Name"
         name="name"
