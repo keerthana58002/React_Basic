@@ -22,7 +22,7 @@ export const ThemeProviderWrapper = ({ children }) => {
     [mode]
 );
 
-  return (
+ return (
     <ThemeContext.Provider value={{ mode, toggleTheme }}>
       <ThemeProvider theme={theme}>
         <CssBaseline />

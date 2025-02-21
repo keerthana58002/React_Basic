@@ -19,5 +19,4 @@ function ToggleButton() {
   );
 }
 
-
 export default ToggleButton;
