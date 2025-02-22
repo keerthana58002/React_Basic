@@ -45,6 +45,7 @@ const ReatYup = () => {
         display: "flex",
         flexDirection: "column",
         gap: 2,
+        
         maxWidth: 400,
         mx: "auto",
         p: 3,

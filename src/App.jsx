@@ -39,8 +39,18 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
+//       {/* <UserForm/> */}
+//       {/* <Profile/> */}
+//       <ThemeProviderWrapper>
+//       <Container sx={{ textAlign: "center", padding: "20px",marginTop:"200px" }}>
+//         <Typography variant="h4">Light/Dark Mode Toggle</Typography>
+//         <ChildComponent/>
+//         <ToggleButton/>
+//       </Container>
+//     </ThemeProviderWrapper>
+  
       
-    </>
+  </>
     
   )
 }

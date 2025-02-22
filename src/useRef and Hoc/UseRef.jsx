@@ -42,8 +42,8 @@ const UserForm = () => {
             variant="contained"
             onClick={() => handleNext(nameRef)}
           >
-            {" "}
-            Next{" "}
+            
+            Next
           </Button>
         </Box>
         <Box>
@@ -53,8 +53,8 @@ const UserForm = () => {
             variant="contained"
             onClick={() => handleNext(emailRef)}
           >
-            {" "}
-            Next{" "}
+          
+            Next
           </Button>
         </Box>
         <Box>
