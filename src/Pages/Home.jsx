@@ -114,5 +114,4 @@ return (
   );
 };
 
-
 export default Home;

@@ -18,5 +18,4 @@ const About = ({ formData }) => {
   );
 };
 
-
 export default About;
