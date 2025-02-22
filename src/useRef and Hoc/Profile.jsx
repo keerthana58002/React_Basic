@@ -6,4 +6,5 @@ function Profile() {
   
 }
 
+
 export default HocAuthentication(Profile);
