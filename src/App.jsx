@@ -25,11 +25,8 @@ function App() {
         <Route path="/about" element={<About formData={formData} />} />
       </Routes>
     </Router>
-
-      
-    </>
+  </>
     
   )
 }
-
 export default App

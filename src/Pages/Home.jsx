@@ -16,6 +16,7 @@ const Home = ({ setFormData }) => {
     navigate("/about");
   };
 
+  
   return (
     <div style={{ textAlign: "center", marginTop: "40px" }}>
       <h2 style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "30px" }}>Login Form</h2>
@@ -52,16 +53,15 @@ const Home = ({ setFormData }) => {
                 border: "1px solid gray", 
                 borderRadius: "5px"
               }} 
-              required 
-            />
+              required />
           </div>
           
           <div style={{ 
             display: "flex", 
             alignItems: "center", 
             justifyContent: "space-between", 
-            marginBottom: "15px"
-          }}>
+            marginBottom: "15px"}}>
+
             <label style={{ fontWeight: "bold", width: "30%" }}>Email:</label>
             <input 
               type="email" 
@@ -74,8 +74,7 @@ const Home = ({ setFormData }) => {
                 border: "1px solid gray", 
                 borderRadius: "5px"
               }}  
-              required 
-            />
+              required />
           </div>
           
           <div style={{ 
@@ -96,8 +95,7 @@ const Home = ({ setFormData }) => {
                 border: "1px solid gray", 
                 borderRadius: "5px"
               }} 
-              required 
-            />
+              required />
           </div>
 
           <div style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
@@ -108,9 +106,7 @@ const Home = ({ setFormData }) => {
               borderRadius: "6px", 
               cursor: "pointer", 
               width: "20%" 
-            }}>
-              Submit
-            </button>
+            }}> Submit</button>
           </div>
 
         </form>
