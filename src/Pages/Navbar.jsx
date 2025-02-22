@@ -19,7 +19,6 @@ function Navbar() {
           <li><Link to="/about" style={{ color: "white", textDecoration: "none" }}>About</Link></li>
       </ul>
       </nav>
-   
-  )
+   )
 }
 export default Navbar;

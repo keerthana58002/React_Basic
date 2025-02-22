@@ -16,8 +16,7 @@ const Home = ({ setFormData }) => {
     navigate("/about");
   };
 
-  
-  return (
+return (
     <div style={{ textAlign: "center", marginTop: "40px" }}>
       <h2 style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "30px" }}>Login Form</h2>
 
