@@ -1,28 +1,28 @@
 
 import './App.css'
-import ProductCard from './card/ProductCard'
-import ReatYup from './card/Form'
-import FormikYupForm from './Form/Formik'
-import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Pages/Navbar";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
+import AxiosHome from './Axios/AxiosHome';
+import AxiosAbout from './Axios/AxiosAbout';
+
 
 
 function App() {
-  const [formData, setFormData] = useState(null);
+  // const [formData, setFormData] = useState(null);
 
   return (
     <>
-      {/* <ProductCard/> */}
+    
       {/* <ReatYup/> */}
       {/* <FormikYupForm/> */}
       <Router>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home setFormData={setFormData} />} />
-        <Route path="/about" element={<About formData={formData} />} />
+        {/* <Route path="/" element={<Home setFormData={setFormData} />} />
+        <Route path="/about" element={<About formData={formData} />} /> */}
+        <Route path="/" element={<AxiosHome/>} />
+        <Route path="/about" element={<AxiosAbout/>} />
+      
       </Routes>
     </Router>
   </>
